@@ -7,8 +7,8 @@
         <version>0.0.1-SNAPSHOT</version>
 
         <packaging>war</packaging>
-        <name>${pkg.title}</name>
-        <description>${pkg.description}</description>
+        <name>MyWebApp</name>
+        <url>http://maven.apache.org</url>
 
         <parent>
                 <groupId>tr.com.obss.sdlc.pom</groupId>
@@ -17,16 +17,15 @@
         </parent>
 
         <properties>
-                <pkg.code>MAVEN</pkg.code>
-                <pkg.title>MyWebApp</pkg.title>
-                <pkg.version.string>0.0.1-SNAPSHOT</pkg.version.string>
-                <pkg.version>0.0.1-SNAPSHOT</pkg.version>
-                <pkg.description><!-- Give some description about this package --></pkg.description
-        </properties>
+        <properties>
+          <maven.compiler.source>1.8</maven.compiler.source>
+          <maven.compiler.target>1.8</maven.compiler.target>
+         </properties>
         
         <dependencies>
-             <dependency>
+           <dependency>
              <dep.junit.version>4.12</dep.junit.version>
               <dep.slf4j.version>1.5.11</dep.slf4j.version>
-              <dependency>
-         </dependencies>
+           </dependency>
+        </dependencies>
+ </project>
