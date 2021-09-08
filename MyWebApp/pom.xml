@@ -23,8 +23,10 @@
         
         <dependencies>
            <dependency>
-             <dep.junit.version>4.12</dep.junit.version>
-              <dep.slf4j.version>1.5.11</dep.slf4j.version>
+             <groupId>junit</groupId>
+             <artifactId>junit</artifactId>
+             <version>3.8.1</version>
+             <scope>test</scope>
            </dependency>
         </dependencies>
  </project>
